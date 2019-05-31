@@ -39,11 +39,11 @@ All clean code must clearly disclose its intention to any member of a team fragm
 
 # App Screenshots
 
-<img src="https://github.com/inigofrabasa/SpecialMovies/blob/master/001.png" width="250"/>
-<br/>
-<img src="https://github.com/inigofrabasa/SpecialMovies/blob/master/002.png" width="250"/>
-<br/>
-<img src="https://github.com/inigofrabasa/SpecialMovies/blob/master/003.png" width="250"/>
-<br/>
-<img src="https://github.com/inigofrabasa/SpecialMovies/blob/master/004.png" width="250"/>
-<br/>
+<table style="width:100%">
+  <tr>
+    <th><img src="https://github.com/inigofrabasa/SpecialMovies/blob/master/001.png" width="250"/></th>
+    <th><img src="https://github.com/inigofrabasa/SpecialMovies/blob/master/002.png" width="250"/></th>
+    <th><img src="https://github.com/inigofrabasa/SpecialMovies/blob/master/003.png" width="250"/></th>
+    <th><img src="https://github.com/inigofrabasa/SpecialMovies/blob/master/004.png" width="250"/></th>
+  </tr>
+</table>
