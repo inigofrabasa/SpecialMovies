@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto">
+    
+    <data>
+        <variable
+                name="clickListener"
+                type="android.view.View.OnClickListener"/>
+        <variable
+                name="category"
+                type="mx.inigofrabasa.specialmovies.data.model.Model.CategoryItem"/>
+        
+        <variable
+                name="drawable"
+                type="int" />
+    </data>
+
+        <androidx.cardview.widget.CardView
+                android:layout_width="220dp"
+                android:layout_height="100dp"
+                android:orientation="horizontal"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:clickable="true"
+                android:elevation="2dp"
+                android:foreground="?android:attr/selectableItemBackground"
+                android:focusable="true"
+                android:gravity="center"
+                app:cardCornerRadius="16dp"
+                android:onClick="@{clickListener}"
+                >
+        
+            <ImageView
+                    android:id="@+id/movie_item_image"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:scaleType="centerCrop"
+                    app:drawable="@{category.drawable}"/>
+    
+            <TextView
+                    android:id="@+id/tv_movie_title"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:textColor="@android:color/white"
+                    android:textSize="30sp"
+                    android:text="@{category.name}"
+                    android:gravity="center_horizontal|center_vertical"
+            />
+    
+        </androidx.cardview.widget.CardView>
+
+</layout>
