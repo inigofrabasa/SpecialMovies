@@ -31,8 +31,19 @@ Webview<br />
 Clean Code<br />
 SOLID<br />
 
-# What is the principle of sole responsibility? What's its purpose?
+# What is the principle of single responsibility? What's its purpose?
+This principle tries to assign each class to a simple and concrete purpose. Avoid generic classes who serves for everything
 
 # What characteristics have a "good" code or clean code?
+All clean code must clearly disclose its intention to any member of a team fragmenting understandable entities.
 
+# App Screenshots
 
+<img src="https://github.com/inigofrabasa/SpecialMovies/blob/master/001.png" width="250"/>
+<br/>
+<img src="https://github.com/inigofrabasa/SpecialMovies/blob/master/002.png" width="250"/>
+<br/>
+<img src="https://github.com/inigofrabasa/SpecialMovies/blob/master/003.png" width="250"/>
+<br/>
+<img src="https://github.com/inigofrabasa/SpecialMovies/blob/master/004.png" width="250"/>
+<br/>
