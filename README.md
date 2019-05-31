@@ -22,7 +22,7 @@ The fisrt entity, is used for map the data for handling, the second entity is re
 - MVVM<br />
 - LiveData<br />
 - DataBinding<br />
-- Reactive Programing<br />
+- Reactive Programming<br />
 - RxJava<br />
 - Retofrit<br />
 - Activity<br />
