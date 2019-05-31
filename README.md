@@ -15,21 +15,21 @@ The fisrt entity, is used for map the data for handling, the second entity is re
 
 # SpecialMovies uses following Features
 
-Android<br />
-Kotlin<br />
-Jetpack<br />
-Architectural Components<br />
-MVVM<br />
-LiveData<br />
-DataBinding<br />
-Reactive Programing<br />
-RxJava<br />
-Retofrit<br />
-Activity<br />
-Fragment<br />
-Webview<br />
-Clean Code<br />
-SOLID<br />
+- Android<br />
+- Kotlin<br />
+- Jetpack<br />
+- Architectural Components<br />
+- MVVM<br />
+- LiveData<br />
+- DataBinding<br />
+- Reactive Programing<br />
+- RxJava<br />
+- Retofrit<br />
+- Activity<br />
+- Fragment<br />
+- Webview<br />
+- Clean Code<br />
+- SOLID<br />
 
 # What is the principle of single responsibility? What's its purpose?
 This principle tries to assign each class to a simple and concrete purpose. Avoid generic classes who serves for everything
